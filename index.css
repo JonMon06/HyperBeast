@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+/*BOTON DE INICIO DE SESION*/
+.botoninicio{
+display: flex;
+top: 10%;
+right: 30%;
+}   
+/* Menu */
+nav {
+    background-color: rgb(107, 0, 93);
+    padding: 20px;
+}
+.antesdelmenu {
+    overflow: visible;
+}
+#titulo4 {
+    font-size: 40px;
+    color: rgb(155, 32, 155);
+    justify-content: left;
+    display: flex;
+    margin-left: 20%;
+}
+
+
+/*ESTILO DE LOS TITULOS*/
+#titulo1{   
+font-size: 50px;
+color:rgb(97, 0, 89);
+justify-content: center;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+.antesdelmenu {
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    padding: 5x;
+    border: 8px solid rgb(95, 0, 75);
+
+}
+
+/* Textos */
+
+#titulo2{
+font-size: 45px;
+color:rgb(156, 6, 144);
+justify-content: center;
+display: flex;
+}
+
+#titulo3{
+font-size: 40px;
+color: rgb(155, 32, 155);
+justify-content: center;
+display: flex;
+}
+iframe {
+    margin-left: 18px;
+}
+a{
+color: white;
+text-decoration: none;
+}
+
+nav{
+justify-content: center;
+display: flex;
+}
+
+/*ESTILO DE LOS BOTONES*/
+button{
+background-color:rgb(58, 58, 58);
+width: 220px;
+height: 70px;
+border-radius: 40px;
+font-size: 18px;
+font-family: inherit;
+border: none;
+position: relative;
+overflow: hidden;
+z-index: 1;
+color: white;
+font-weight: bold;
+margin-left: 10px;
+}
+
+button::before {
+content: '';
+width: 0;
+height: 70px;
+border-radius: 40px;
+position: absolute;
+top: 0;
+left: 0;
+background-image: linear-gradient(to right, rgb(130, 0, 134) 0%, rgb(255, 76, 210) 100%);
+display: block;
+z-index: -1;
+}
+button:hover::before {
+width: 220px;
+}
+
+/* mapa */
+
+#maphorario{
+    display: inline-flex;
+    
+}
+#localizacion{
+    margin-left: 15%;
+}
+#mapa{
+    margin-left: 15%;
+}
+
+/* horarios y contacto */
+#horario{
+    color:rgb(107, 0, 102);
+    margin-left: 30%;
+    font-size: 30px;
+}
+#Contacto{
+    color:rgb(102, 0, 97);
+    font-size: 30px;
+    flex: 1;
+}
+
+#contacto2{
+    color:rgb(119, 0, 93);
+    font-size: 30px;
+    margin-left: 15%;
+    flex: 1;
+}
+#bibli {
+    width: 500px;
+    height: 300px;
+    margin-right: 10%;
+    float: right;
+    display: flex;
+}
+
+
+/*FOOTER*/
+.info {
+    display: flex;
+    justify-content: center;
+    
+    }
+    a:hover{
+    color: rgb(79, 48, 119);
+    }
+    #correo{
+    color: rgb(255, 255, 255);
+    margin-right: 25%;
+    }
+    #num {
+    color: white;
+    margin-right: 25%;
+    }
+    #redes {
+    color: white;
+    }
+    .copy {
+    color:rgb(113, 125, 128);
+    display: flex;
+    justify-content: center;
+    }
+    a #correo{
+    color: rgb(252, 252, 252);
+    }
+    footer {
+    font-size:20px;
+    font-weight: bold;
+    background-color: rgb(99, 0, 94);
+    }
